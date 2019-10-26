@@ -10,7 +10,7 @@ function App() {
     <div>
     <Router>
       <Header/>
-      <Route path="/" exact component={About}/>
+      <Route path="/" exact component={About} />
       <Route path="/products" component={Products}/>
       <Footer/>
     </Router>
