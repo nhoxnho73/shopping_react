@@ -11,7 +11,9 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "reactstrap": "^8.0.1",
-    "yarn": "^1.19.0"
+    "yarn": "^1.19.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,5 +39,8 @@
   "devDependencies": {
     "interpolate-html-plugin": "^3.0.0",
     "react-dev-utils": "^9.1.0"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
