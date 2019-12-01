@@ -37,7 +37,7 @@ class Header extends Component {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                   <ul className="navbar-nav" id="menu">
                     <li className="nav-item">
-                      <Link to="/" className="nav-link">Trang chủ<span className="sr-only">(current)</span></Link>
+                      <Link to="/about" className="nav-link">Trang chủ<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="true">Về Antana Food</a>
@@ -49,7 +49,7 @@ class Header extends Component {
                       <a className="nav-link" href="true">Tin tức</a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="true">Liên hệ</a>
+                      <Link to="/contact" className="nav-link" href="true">Liên hệ</Link>
                     </li>
                   </ul>
                   <form className="form-inline my-2 my-lg-0">
@@ -61,10 +61,9 @@ class Header extends Component {
             </nav>
           </div>
           <div className="slide-show">
-            <Slide/>
+            <Slide/> {/* add slide component */}
           </div>
         </div>
-
       </div>
     );
   }

@@ -85,19 +85,19 @@
   width: 100%;
   height: auto;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.41); 
-  .item-penel{
+  .carousel-item{
       position: relative;
       img{
           width: 100%;
           height: auto;
       }
   }
-   .item-penel::before{
+   .carousel-item::before{
       content: "";
       position: absolute;
       background-size: auto 100%;
       background-position: center;
-      // background-image: url(../img/layout/text/banner_text.png);
+      background-image: url('/image/banner_text.png');
       z-index: 9;
       height: 50%;
       background-repeat: no-repeat;
