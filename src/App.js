@@ -3,7 +3,9 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Products from './components/products';
 import About from './components/About';
-import Contact from './components/contact'
+import Contact from './components/contact';
+import News from './components/news';
+import Home from './components/home';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
@@ -11,9 +13,11 @@ function App() {
     <div>
     <Router>
       <Header/>
-      <Route path="/about" exact component={About} />
+      <Route path="/home" exact component={Home} />
+      <Route path="/about" component={About}/>
       <Route path="/products" component={Products}/>
       <Route path="/contact" component={Contact} />
+      <Route path="/news" component={News} />
       <Footer/>
     </Router>
     </div>

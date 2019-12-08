@@ -37,16 +37,16 @@ class Header extends Component {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                   <ul className="navbar-nav" id="menu">
                     <li className="nav-item">
-                      <Link to="/about" className="nav-link">Trang chủ<span className="sr-only">(current)</span></Link>
+                      <Link to="/home" className="nav-link">Trang chủ<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="true">Về Antana Food</a>
+                      <Link to="/about" className="nav-link" href="true">Về Antana Food</Link>
                     </li>
                     <li className="nav-item">
                       <Link to="/products" className="nav-link">Sản phẩm</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="true">Tin tức</a>
+                      <Link to="/news" className="nav-link" href="true">Tin tức</Link>
                     </li>
                     <li className="nav-item">
                       <Link to="/contact" className="nav-link" href="true">Liên hệ</Link>

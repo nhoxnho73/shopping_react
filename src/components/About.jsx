@@ -86,7 +86,7 @@ class About extends React.Component {
               <div className="row">
                 <div className="col-md-10 mx-auto">
                   <div className="block-title">
-                    <img className="img-size-5" src="./image/about/partner.png" alt=""/>
+                    <img className="img-size-5" src="./image/partner.png" alt=""/>
                   </div>
                 </div>
               </div>
