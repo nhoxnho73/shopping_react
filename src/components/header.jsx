@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Slide from './slide';
-import { Link } from 'react-router-dom';
+import Slide from './Slide';
+import Menu from './Menu';
 class Header extends Component {
   render() {
     return (
@@ -34,29 +34,7 @@ class Header extends Component {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon" />
                 </button>
-                <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                  <ul className="navbar-nav" id="menu">
-                    <li className="nav-item">
-                      <Link to="/" className="nav-link">Trang chủ<span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link to="/about" className="nav-link" href="true">Về Antana Food</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link to="/products" className="nav-link">Sản phẩm</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link to="/news" className="nav-link" href="true">Tin tức</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link to="/contact" className="nav-link" href="true">Liên hệ</Link>
-                    </li>
-                  </ul>
-                  <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control mr-sm-2 input-search" type="search" placeholder="Search" aria-label="Search" />
-                    <Link to="/cart" className="link-cart"><img className="shopping-cart" src="./image/shopping_cart.png" alt=""/></Link>
-                  </form>
-                </div>
+                <Menu/> {/* add menu component */}
               </div>
             </nav>
           </div>

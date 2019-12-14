@@ -42,26 +42,37 @@
   }
   .collapse{
       .navbar-nav{
-          margin-right: 80px;
+					margin-right: 80px;
+					.active{
+						a{
+							background-color:#828c27;
+							color: #fff !important;
+							border-radius: 15px;
+						}
+					}
           li{
               padding-right: 20px;
               
               a{
                 font-size: 14px;
                 font-weight: 600;
-                color: #828c27;
+                color: #828c27 !important;
                 padding: 4px 10px;
+              }
+              a:focus{
+                color: #828c27;
               }
                a:hover{
                 background-color:#828c27;
-                color: #fff;
+                color: #fff !important;
                 border-radius: 15px;
                 }
           }
       }
       .form-inline{
           .input-search{
-            height: 28px;
+						height: 28px;
+						color: #fff;
             background-color:#828c27; 
             border-radius: 20px;
             border-color: #828c27;

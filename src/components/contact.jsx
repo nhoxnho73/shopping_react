@@ -55,7 +55,7 @@ class Contact extends React.Component {
           </div>
         </div>
         <div className="google-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31328.49898390409!2d106.61210572650585!3d11.033947269925468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d1f55bb350cf%3A0xbf95524da60c926!2zSGnhu4dwIEFuLCBUcC4gVGjhu6cgROG6p3UgTeG7mXQsIELDrG5oIETGsMahbmcsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1550286167771" width={600} height={450} frameBorder={0} style={{border: 0}} allowFullScreen ></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31328.49898390409!2d106.61210572650585!3d11.033947269925468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d1f55bb350cf%3A0xbf95524da60c926!2zSGnhu4dwIEFuLCBUcC4gVGjhu6cgROG6p3UgTeG7mXQsIELDrG5oIETGsMahbmcsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1550286167771" width={600} height={450} frameBorder={0} style={{border: 0}} title="antana-map" allowFullScreen ></iframe>
         </div>
       </div> 
     );
