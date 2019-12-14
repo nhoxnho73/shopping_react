@@ -9,25 +9,25 @@
       margin-bottom: 0;
       text-align: right;
       li{
-          list-style-type: none;
-          display: inline-block;
-          span{
-              color: #ff0000;
-          }
-          .align-right{
-              margin-right: 10px;
-          }
-          .align-left{
-              margin-left: 10px;
-          }
-          a{
-              text-decoration:none;
-              color: #777777;
-              .fa{
-                  color: #777777;
-                  font-size: 16px;
-              }
-          }
+        list-style-type: none;
+        display: inline-block;
+        span{
+            color: #ff0000;
+        }
+        .align-right{
+            margin-right: 10px;
+        }
+        .align-left{
+            margin-left: 10px;
+        }
+        a{
+            text-decoration:none;
+            color: #777777;
+            .fa{
+                color: #777777;
+                font-size: 16px;
+            }
+        }
       }
       li:not(:last-child){
           margin-right: 20px;
@@ -37,7 +37,7 @@
 .main-menu{
   .navbar{
       .menu-mobile{
-             display: none;
+            display: none;
            }
   }
   .collapse{
@@ -47,36 +47,36 @@
               padding-right: 20px;
               
               a{
-                  font-size: 14px;
-                  font-weight: 600;
-                  color: #828c27;
-                  padding: 4px 10px;
+                font-size: 14px;
+                font-weight: 600;
+                color: #828c27;
+                padding: 4px 10px;
               }
                a:hover{
-                   background-color:#828c27;
-                   color: #fff;
-                   border-radius: 15px;
+                background-color:#828c27;
+                color: #fff;
+                border-radius: 15px;
                 }
           }
       }
       .form-inline{
           .input-search{
-              height: 28px;
-              background-color:#828c27; 
-              border-radius: 20px;
-              border-color: #828c27;
-              border: none;
-              outline: none;
-              box-shadow: none;
+            height: 28px;
+            background-color:#828c27; 
+            border-radius: 20px;
+            border-color: #828c27;
+            border: none;
+            outline: none;
+            box-shadow: none;
           }
           .input-search::-webkit-input-placeholder{
-              color: #fff;
+            color: #fff;
           }
           .shopping-cart{
-              height: 28px;
-              width: auto;
-              line-height: 28px;
-              margin-left: 10px;
+            height: 28px;
+            width: auto;
+            line-height: 28px;
+            margin-left: 10px;
           }
       }
   }
@@ -88,8 +88,8 @@
   .carousel-item{
       position: relative;
       img{
-          width: 100%;
-          height: auto;
+        width: 100%;
+        height: auto;
       }
   }
    .carousel-item::before{

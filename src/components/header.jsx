@@ -37,7 +37,7 @@ class Header extends Component {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                   <ul className="navbar-nav" id="menu">
                     <li className="nav-item">
-                      <Link to="/home" className="nav-link">Trang chủ<span className="sr-only">(current)</span></Link>
+                      <Link to="/" className="nav-link">Trang chủ<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
                       <Link to="/about" className="nav-link" href="true">Về Antana Food</Link>
@@ -54,7 +54,7 @@ class Header extends Component {
                   </ul>
                   <form className="form-inline my-2 my-lg-0">
                     <input className="form-control mr-sm-2 input-search" type="search" placeholder="Search" aria-label="Search" />
-                    <a href="true"><img className="shopping-cart" src="./image/shopping_cart.png" alt=""/></a>
+                    <Link to="/cart" className="link-cart"><img className="shopping-cart" src="./image/shopping_cart.png" alt=""/></Link>
                   </form>
                 </div>
               </div>
