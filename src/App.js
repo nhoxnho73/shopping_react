@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/header';
-import Footer from './components/footer';
-import Products from './components/products';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Products from './components/Products';
 import About from './components/About';
-import Contact from './components/contact';
-import News from './components/news';
-import Home from './components/home';
+import Contact from './components/Contact';
+import News from './components/News';
+import Home from './components/Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Cart from './components/Cart';
 import NotFound from './components/NotFound';
