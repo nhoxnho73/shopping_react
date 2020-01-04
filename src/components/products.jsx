@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Fuirt from './Fuirt';
-import Seed from './Seed';
+import Fuirt from './fuirt';
+import Seed from './seed';
 
 class Products extends Component {
   render() {
