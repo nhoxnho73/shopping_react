@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Slide from './Slide';
+import Slide from './slide';
 import Menu from './Menu';
 class Header extends Component {
   render() {
