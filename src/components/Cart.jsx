@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import MoreProduct from './MoreProduct';
 
 class Cart extends Component {
   render() {
@@ -79,46 +80,9 @@ class Cart extends Component {
                 </div>
               </div>
             </div>
-            <div className="row gio-hang-text">
-              <div className="col-md-10 mx-auto">
-                <div className="gio-hang-text-title">
-                  <img src="./image/hot_product.png" alt=""/>
-                </div>
-              </div>
-              <div className="owl-carousel owl-carousel-3 owl-theme owl-loaded">
-                <div className="owl-stage-outer">
-                  <div className="owl-stage">
-                    <div className="owl-item">
-                      <div className="sea-food-main">
-                        <div className="sea-food-left"><a href="true"><img src="./image/product/im2.png" alt=""/></a></div>
-                        <div className="sea-food-right">
-                          <h6><a href="true">HẠT ĐIỀU RANG MUỐI 250G</a></h6>
-                          <a href="true" className="btn">MUA NGAY</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="owl-item">
-                      <div className="sea-food-main">
-                        <div className="sea-food-left"><a href="true"><img src="./image/product/im3.png" alt=""/></a></div>
-                        <div className="sea-food-right">
-                          <h6><a href="true">XOÀI SẤY 250G</a></h6>
-                          <a href="true" className="btn">MUA NGAY</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="owl-item">
-                      <div className="sea-food-main">
-                        <div className="sea-food-left"><a href="true"><img src="./image/product/im4.png" alt=""/></a></div>
-                        <div className="sea-food-right">
-                          <h6><a href="true">KHOAI LANG SẤY 250G</a></h6>
-                          <a href="true" className="btn">MUA NGAY</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {/* start carousel */}
+            <MoreProduct/>
+            {/* end carousel */}
           </div>
         </div>
 
