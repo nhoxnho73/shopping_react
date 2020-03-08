@@ -17,8 +17,8 @@ class MoreProduct extends Component {
         <OwlCarousel 
           className="owl-theme"
           items="3"
-          // autoplay
-          // loop
+          autoplay
+          loop
         >
           <div className="sea-food-main">
             <div className="sea-food-left"><a href="true"><img src="./image/master/im2.jpg" alt=""/></a></div>
